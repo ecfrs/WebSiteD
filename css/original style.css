@@ -51,18 +51,11 @@ header{ height:220px;}
 #menu > li > a{ display:block; font:17px 'Asap', sans-serif; color:#fff; text-shadow:1px 1px rgba(0,0,0,.5)}
 #menu > li > a:hover, #menu > .active > a{ }
 
-.submenu_1{ position:absolute; top:30px; left:-30px; width:210px; background:url(../images/bg_footer.png) repeat; padding:10px 0;}
-.submenu_1 li{ position:relative;}
-.submenu_1 span{ position: absolute; width:100%; height:100%; top:0; left:0; background:#FF8000;} 
-.submenu_1 a{ display:block; font:14px 'Asap', sans-serif;  line-height:30px; color:#ad2f00; position:relative; text-align:center}
-
-
-/*
 .submenu_1{ position:absolute; top:30px; left:-30px; width:110px; background:url(../images/bg_footer.png) repeat; padding:10px 0;}
 .submenu_1 li{ position:relative;}
 .submenu_1 span{ position: absolute; width:100%; height:100%; top:0; left:0; background:#fff}
 .submenu_1 a{ display:block; font:14px 'Asap', sans-serif;  line-height:30px; color:#ad2f00; position:relative; text-align:center}
-*/
+
 /* ============================= content ====================== */
 
 #content{ margin-top:30px; padding-bottom:90px; position:relative}
@@ -151,6 +144,10 @@ footer a:hover{}
 .col2{ width:280px;}
 #page_Contacts .col2{ width:70px; }
 
+
+
+
+
 body, 
 .menu,
 .sub-menu {
@@ -173,9 +170,7 @@ body,
   background: #000;
 }
 .sub-menu {
-  /* background: #444;  */
-  background: #440;
-  
+  background: #444;
 }
 .menu a {
   text-decoration: none;
